@@ -10,7 +10,7 @@
     "mocha:watch": "npm run test -- --watch",
     "build": "rm -rf build/ && babel src --out-dir build",
     "lint": "eslint 'src/' 'test/' 'mock.js'",
-    "postinstall": "yarn run build"
+    "postinstall": "yarn && yarn run build"
   },
   "repository": {
     "type": "git",
